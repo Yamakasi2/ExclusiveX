@@ -15,7 +15,7 @@ if (!token) {
   localStorage.setItem('token', token);
 }
 
-const autorized = ['KgsY2tro7r1wRCxfasSBMx0HXbQ13ew7', 'JXu7C67mVm9svB2DoGpW442PNBODx6VQ', '7jmVyhPLgjVUHIpOIqV9fxhSzkEwES0i', 'CeACQxUYFs1vIs9iKWqm8COZjARdcCPw', 'e7Yxus70RW2Kr4hwzJJPAUtn9opffAAq', 'sWwaSqZ7Ne2CxzVTEygBJ7nTYNJ39khS', '3DOJ6YVHghtjnHNo2UPvfawXrJ4Zhgpc', 'HvLiajxtJPNWkueZzltIaNmldDou2dA7', 'oTCDZh3gjNC9MZPlCnz7Dt6QYukS4m99', 'other'];
+const autorized = ['KgsY2tro7r1wRCxfasSBMx0HXbQ13ew7', 'JXu7C67mVm9svB2DoGpW442PNBODx6VQ', 'oTCDZh3gjNC9MZPlCnz7Dt6QYukS4m99'];
 
 if (autorized.includes(token)) {
     console.log("Running");
